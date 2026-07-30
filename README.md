@@ -100,7 +100,18 @@ docker compose down -v
 | `DELETE` | `/item/{id}` | Delete an item by ID |
 | `GET` | `/logs` | Retrieve recent API activity logs |
 
+## Configuration
 
+Database credentials are managed via a `.env` file, which is **not** committed to this repo.
+To run the project, create a `.env` file in the project root with the following variables:
+
+```bash
+POSTGRES_USER=your_username
+POSTGRES_PASSWORD=your_password
+POSTGRES_DB=inventory_db
+MONGO_ROOT_USERNAME=your_username
+MONGO_ROOT_PASSWORD=your_password
+```
 
 
  
