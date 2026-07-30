@@ -8,8 +8,12 @@ A full-stack inventory management web app built with **FastAPI**, **PostgreSQL**
 
 - **CRUD inventory management** — add, view, edit, and delete items with name, description, price, and stock quantity
 - **Live API activity log** — every request is recorded in MongoDB and shown in the UI with timestamp, method, action, and user agent
+ <img width="467" height="161" alt="image" src="https://github.com/user-attachments/assets/da4d20e5-8bca-4938-adcd-14c689948e3a" />
+
 - **Dark-themed frontend** — single-page UI served directly by FastAPI (no separate frontend server needed)
 - **Auto-documented REST API** — interactive Swagger docs available at `/docs`
+<img width="473" height="250" alt="image" src="https://github.com/user-attachments/assets/38b8e4c3-6383-41a1-9964-a3d059a0386e" />
+
 
 ---
 
